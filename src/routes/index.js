@@ -31,6 +31,36 @@ const routes = [
         path: '/flash',
         name: 'flash',
         component: () => import("../components/flash.vue")
+    },
+    {
+        path: '/transition',
+        name: 'transition',
+        component: () => import("../components/transition.vue")
+    },
+    {
+        path: '/transform',
+        name: 'transform',
+        component: () => import("../components/transform.vue")
+    },
+    {
+        path: '/sector',
+        name: 'sector',
+        component: () => import("../components/sector.vue")
+    },
+    {
+        path: '/time',
+        name: 'time',
+        component: () => import("../components/time.vue")
+    },
+    {
+        path: '/3Dtransform',
+        name: '3Dtransform',
+        component: () => import("../components/3Dtransform.vue")
+    },
+    {
+        path: '/dice',
+        name: 'dice',
+        component: () => import("../components/dice.vue")
     }
 ]
 
