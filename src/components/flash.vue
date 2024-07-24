@@ -1,5 +1,7 @@
-<template id="content">
-  <h1 :style="{backgroundPosition: sc}">Solidity</h1>
+<template>
+  <div id="wrap">
+    <h1 :style="{backgroundPosition: sc}">Solidity</h1>
+  </div>
 </template>
 
 <script setup>
@@ -26,6 +28,13 @@ const sc = computed(()=>{
   margin: 0;
   padding: 0;
 }
+#wrap{
+  width: 100vh;
+  height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
 h1{
   color: rgba(255,255,255,.3);
   font-size: 80px;
